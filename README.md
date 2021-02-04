@@ -1,5 +1,5 @@
 # charity_data
-An analysis of data available from opencharity.org
+An analysis of data available from opencharities.org
 
 ## Distribution of charities across location and time
 ### Introduction
@@ -12,31 +12,31 @@ The list of charities has been filtered to remove those charities that have sinc
 
 ## Data dictionary:
 ### charity_clean.csv
-This is the main spreadsheet downloaded from opencharity.org in December 2020. It contains roughly 250,000 records.
+This is the main spreadsheet downloaded from opencharities.org in December 2020. It contains roughly 250,000 records.
 Columns | Not null | Definition | dtype
  --- | --- | --- | ---
  Unnamed: 0 |                    138020 | irrelevant | integer
  title       |                   138020 | name of the charity | string
  charity_number    |             138020 | Charity Commission charity number |integer
  activities        |             104722 | Description of the charity's activity | string
- contact_name      |              13855 | 
- address            |            138020 |
- website             |            75663 |
- telephone           |           136154 |
- date_registered      |          138019 |
- date_removed         |               0 |
- accounts_date        |           99963 |
- spending             |              91|
- income               |              91 |
- opencharities_url    |          138020 |
- twitter_account_name |            9123 |
- facebook_account_name|            6144 |
- youtube_account_name  |           3345 |
- feed_url              |           6151 |
- charity_classification_uids |   137584 |
- last_checked                |   138020 |
- created_at                  |   138020 |
- updated_at                  |   138020 |
- post_code                   |   138020 |
- longlat                      |  138020 |
- geometry                     |  138020 |
+ contact_name      |              13855 | A named individual at the charity | string
+ address            |            138020 | The full address of the charity | string
+ website             |            75663 | URL of the charity's website | string
+ telephone           |           136154 | A telephone number | string
+ date_registered      |          138019 | The date the charity was added to the register - equivalent of when the charity was established | string
+ date_removed         |               0 | The date the charity was removed from the register - Empty | n/a
+ accounts_date        |           99963 | Date of the most recent accounts | string
+ spending             |              91| Amount spent by the charity in the last accounts | integer
+ income               |              91 | Amount of income the charity received in the last accounts | integer
+ opencharities_url    |          138020 | URL of the charity's page on opencharity.org | string
+ twitter_account_name |            9123 | the charity's Twitter username | string
+ facebook_account_name|            6144 | the charity's Facebook username | string
+ youtube_account_name  |           3345 | the charity's Facebook username | string
+ feed_url              |           6151 | the URL of an RSS style newsfeed | string
+ charity_classification_uids |   137584 | a series of three digit codes representing the activities of the charity - meaning of codes is in Charity_commission_codes.csv | string
+ last_checked                |   138020 | the date the information was last updated from the Charity Commission website | string
+ created_at                  |   138020 | the date the record was created in the opencharities.org website
+ updated_at                  |   138020 | the date the information was last updated from the Charity Commission website (not sure how this is different to last_checked | string
+ post_code                   |   138020 | The postcode of the charity extracted from the address record (my addition) | string
+ longlat                      |  138020 | The longitude and latitude of the postcode (my addition) | string
+ geometry                     |  138020 | A shapefile format point location of the longitude and latitude | string
