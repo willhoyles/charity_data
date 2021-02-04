@@ -35,7 +35,7 @@ Columns | Not null | Definition | dtype
  feed_url              |           6151 | the URL of an RSS style newsfeed | string
  charity_classification_uids |   137584 | a series of three digit codes representing the activities of the charity - meaning of codes is in Charity_commission_codes.csv | string
  last_checked                |   138020 | the date the information was last updated from the Charity Commission website | string
- created_at                  |   138020 | the date the record was created in the opencharities.org website
+ created_at                  |   138020 | the date the record was created in the opencharities.org website | string
  updated_at                  |   138020 | the date the information was last updated from the Charity Commission website (not sure how this is different to last_checked | string
  post_code                   |   138020 | The postcode of the charity extracted from the address record (my addition) | string
  longlat                      |  138020 | The longitude and latitude of the postcode (my addition) | string
