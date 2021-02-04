@@ -1,0 +1,18 @@
+Sector_code,sector_name,Beneficiary_code,beneficiary_name,Services_code,services_name
+101,General Charitable Purposes,201,Children/young People,301,Makes Grants To Individuals
+102,Education_Training,202,Elderly/old People,302,Makes Grants To Organisations
+103,The Advancement Of Health Or Saving Of Lives,203,People With Disabilities,303,Provides Other Finance
+104,Disability,204,People Of A Particular Ethnic Or Racial Origin,304,Provides Human Resources
+105,The Prevention Or Relief Of Poverty,205,Other Charities Or Voluntary Bodies,305,Provides Buildings/facilities/open Space
+106,Overseas Aid/famine Relief,206,Other defined groups,306,Provides Services
+107,Accommodation/housing,207,The General Public/mankind,307,Provides Advocacy/advice/information
+108,Religious Activities,,,308,Sponsors Or Undertakes Research
+109,Arts/culture/heritage/science,,,309,Acts As An Umbrella Or Resource Body
+110,Amateur Sport,,,310,Other Charitable Activities
+111,Animals,,,,
+112,Environment/conservation/heritage,,,,
+113,Economic/community Development/employment,,,,
+114,Armed Forces/emergency Service Efficiency,,,,
+115,Human Rights/religious Or Racial Harmony/equality Or Diversity,,,,
+116,Recreation,,,,
+117,Other Charitable Purposes,,,,
