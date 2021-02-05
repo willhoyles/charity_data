@@ -14,7 +14,7 @@ The list of charities has been filtered to remove those charities that have sinc
 
 ## Data dictionary:
 ### charity_clean.csv
-This is the main spreadsheet downloaded from opencharities.org in December 2020. It contains roughly 250,000 records.
+This is the main spreadsheet downloaded from opencharities.org in December 2020. It contains roughly 130,000 records. The file is too large to add to GitHub.
 Columns | Not null | Definition | dtype
  --- | --- | --- | ---
  Unnamed: 0 |                    138020 | irrelevant | integer
