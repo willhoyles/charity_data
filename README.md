@@ -40,3 +40,44 @@ Columns | Not null | Definition | dtype
  post_code                   |   138020 | The postcode of the charity extracted from the address record (my addition) | string
  longlat                      |  138020 | The longitude and latitude of the postcode (my addition) | string
  geometry                     |  138020 | A shapefile format point location of the longitude and latitude | string
+ 
+### charity_map_geometry.csv
+
+This is a copy of charity_clean.csv.
+
+### Charity_commission_codes.csv
+ 
+ This spreadsheet was created by my own comparison of the codes stored in the Open Charities database in the column 'charity_classification_uids' and information recorded on the Charity Commission website. There are numerous entries of 000 in the charity_clean.csv which I have ignored. The codes are each three digits and each code is separated by a comma within the cell. I was able to ascertain that codes began with a different number depending on the type of activity referred to, in the following format:
+ - 1xx - the sector the charity operates in
+ - 2xx - who the charities primary beneficiaries are
+ - 3xx - the type of service the charity operates in
+ 
+ This spreadsheet serves to translate the codes into amore understandable format.
+ 
+ Columns | Definition | dtype
+ --- | --- | ---
+Sector_code | the code in the charity_clean.csv | integer
+sector_name | the inferred sector as per the Charity Commission website | string
+Beneficiary_code | the code in the charity_clean.csv | integer
+beneficiary_name	| the inferred beneficiary group as per the Charity Commission website | string
+Services_code	| the code in the charity_clean.csv | integer
+services_name | the inferred services as per the Charity Commission website | string
+
+### gb_cities_longlat.csv
+
+Details of cities in the UK including locations.
+Columns | Definition | dtype
+ --- | --- | ---
+city | the name of the city | string
+lat | the latitude of the city | string
+lng | the longitude of the city | string
+country | the country of the city (all UK in this list) |  string
+iso2 | all GB in this list | string
+admin_name | the administrative name of the city | string
+capital | an indication of whether the city is a capital city | string
+population | the population of the city | integer
+population_proper | unused - not sure how it's different from population | integer
+
+### Regions__December_2017__Boundaries.shp
+
+The project uses a shapefile of England sourced from https://geoportal.statistics.gov.uk/datasets/4fcca2a47fed4bfaa1793015a18537ac_4
