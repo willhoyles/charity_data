@@ -1,5 +1,7 @@
 # charity_data
-An analysis of data available from opencharities.org
+An analysis of data available from opencharities.org using Python. 
+
+Main project is a Jupyter notebook - charity_data_exploration.ipynb
 
 ## Distribution of charities across location and time
 ### Introduction
